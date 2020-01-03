@@ -10,4 +10,4 @@ You should use input to read a string and float() to convert the string to a num
 <br>
 Do not worry about error checking the user input - assume the user types numbers properly.
 <br>
-<b>Program can hadle the errors in tthe terminal caused by user when he/she enters words instead of the numbers.</b>
+<b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b>
