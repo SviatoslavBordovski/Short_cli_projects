@@ -9,3 +9,5 @@ Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be
 You should use input to read a string and float() to convert the string to a number.
 <br>
 Do not worry about error checking the user input - assume the user types numbers properly.
+<br>
+<b>Program can hadle the errors in tthe terminal caused by user when he/she enters words instead of the numbers.</b>
