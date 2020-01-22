@@ -1,4 +1,4 @@
-#Runs in the terminal perfectly      
+#Runs in the terminal perfectly         
 
 hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
