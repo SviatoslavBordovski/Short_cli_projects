@@ -3,7 +3,7 @@
 hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
 
-try: # if it fails because user entered a word - except would run
+try: #if it fails because user entered a word - except would run
    nh = float(hrs) #number of hours
    hr = float(rate) #hour rate
 
