@@ -8,6 +8,6 @@
 <br>
 <p>You should use input to read a string and float() to convert the string to a number.</p>
 <br>
-Do not worry about error checking the user input - assume the user types numbers properly.
+<p>Do not worry about error checking the user input - assume the user types numbers properly.</p>
 <br>
 <b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b>
