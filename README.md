@@ -10,4 +10,4 @@
 <br>
 <p>Do not worry about error checking the user input - assume the user types numbers properly.</p>
 <br>
-<b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b>
+<p><b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b></p>
