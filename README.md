@@ -1,4 +1,4 @@
-<h1>Bill-payment-with-overtime-hours</h1>
+<h1>Bill payment with counted overtime hours</h1>
 
 <p>Write a program to prompt the user for hours and rate per hour using input to compute gross pay.</p>
 <br>
