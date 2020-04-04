@@ -1,8 +1,8 @@
-# Bill-payment-with-overtime-hours
+<h1>Bill-payment-with-overtime-hours</h1>
 
-Write a program to prompt the user for hours and rate per hour using input to compute gross pay.
+<p>Write a program to prompt the user for hours and rate per hour using input to compute gross pay.</p>
 <br>
-Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours.
+<p>Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours.</p>
 <br>
 Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). 
 <br>
