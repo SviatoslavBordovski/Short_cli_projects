@@ -6,7 +6,7 @@
 <br>
 <p>Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75).</p>
 <br>
-You should use input to read a string and float() to convert the string to a number.
+<p>You should use input to read a string and float() to convert the string to a number.</p>
 <br>
 Do not worry about error checking the user input - assume the user types numbers properly.
 <br>
