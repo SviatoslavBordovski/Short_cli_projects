@@ -25,7 +25,6 @@ e = combined_names_string.count("e")
 match_for_love = l + o + v + e
 
 final_match = str(match_for_true) + str(match_for_love)
-import pdb; pdb.set_trace()
 
 if 10 > int(final_match) > 90:
   print("Your score is **x**, you go together like coke and mentos.")
