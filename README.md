@@ -5,10 +5,8 @@
 <p>You should use input to read a string and float() to convert the string to a number.
 <p>Do not worry about error checking the user input - assume the user types numbers properly.
 <p><b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b></p>
-
 <br>
-
-<h3>3. <b>program</b> that repeatedly prompts a user for integer numbers until the user enters <i>done</i>.</h3>
+<h3>3. Program that repeatedly prompts a user for integer numbers to enter until the user enters finally <i>done</i> string.</h3>
 <h5>Program workflow is:</h5>
 <ul>
   <li>Once 'done' is entered in the terminal, python is printing out the largest and smallest of the numbers</li>
