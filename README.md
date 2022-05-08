@@ -1,5 +1,5 @@
 <html>
-  <h3>Count US floor</h3>
+  <h3>1. Count US floor</h3>
   
   <p>Once user selected it, we just count starting from zero</p>
   <p>If user have chosen EU floor, we convert it to an integer number (previous "inp") and make +1 as it is expected in US.</p>
