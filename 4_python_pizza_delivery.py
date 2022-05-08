@@ -9,35 +9,25 @@ bill = 0
 if size == "S":
   print("Small Pizza: $15")
   bill += 15
-  if add_pepperoni == "Y":
-    print("Pepperoni for Small Pizza: +$2")
-    bill += 2
-  if extra_cheese == "Y":
-    print("Extra cheese for any size pizza: + $1")
-    bill += 1
-
-  print(f"Your final bill is: ${bill}.")
-    
 elif size == "M":
   print("Medium Pizza: $20")
   bill += 20
-  if add_pepperoni == "Y":
-    print("Pepperoni for Medium or Large Pizza: +$3")
-    bill += 3
-  if extra_cheese == "Y":
-    print("Extra cheese for any size pizza: + $1")
-    bill += 1
-
-  print(f"Your final bill is: ${bill}.")
-  
 elif size == "L":
   print("Large Pizza: $25")
   bill += 25
-  if add_pepperoni == "Y":
+
+  
+if add_pepperoni == "Y":
+  if size == "S":
+    print("Pepperoni for Small Pizza: +$2")
+    bill += 2
+  else:
     print("Pepperoni for Medium or Large Pizza: +$3")
     bill += 3
-  if extra_cheese == "Y":
-    print("Extra cheese for any size pizza: + $1")
-    bill += 1
 
-  print(f"Your final bill is: ${bill}.")
+
+if extra_cheese == "Y":
+  print("Extra cheese for any size pizza: + $1")
+  bill += 1
+
+print(f"Your final bill is: ${bill}.")
