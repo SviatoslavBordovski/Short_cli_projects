@@ -1,4 +1,4 @@
-<h3>1. Bill payment with counted overtime hours</h3>
+<h3>2. Bill payment with counted overtime hours</h3>
 <p>Write a program to prompt the user for hours and rate per hour using input to compute gross pay.
 <p>Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours.
 <p>Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75).
@@ -6,7 +6,7 @@
 <p>Do not worry about error checking the user input - assume the user types numbers properly.
 <p><b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b></p>
 <br>
-<h3>2. Based on a user's order, work out their final pizza bill.</h3>
+<h3>3. Based on a user's order, work out their final pizza bill.</h3>
 <p>Small Pizza: $15</p>
 <p>Medium Pizza: $20</p>
 <p>Large Pizza: $25</p>
@@ -14,7 +14,7 @@
 <p>Pepperoni for Medium or Large Pizza: +$3</p>
 <p>Extra cheese for any size pizza: + $1</p>
 <br>
-<h3>3. <b>program</b> that repeatedly prompts a user for integer numbers until the user enters <i>done</i>.</h3>
+<h3>4. <b>program</b> that repeatedly prompts a user for integer numbers until the user enters <i>done</i>.</h3>
 
 <h5>Program workflow is:</h5>
 
