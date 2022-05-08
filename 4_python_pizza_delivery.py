@@ -15,7 +15,6 @@ elif size == "M":
 elif size == "L":
   print("Large Pizza: $25")
   bill += 25
-
   
 if add_pepperoni == "Y":
   if size == "S":
@@ -24,7 +23,6 @@ if add_pepperoni == "Y":
   else:
     print("Pepperoni for Medium or Large Pizza: +$3")
     bill += 3
-
 
 if extra_cheese == "Y":
   print("Extra cheese for any size pizza: + $1")
