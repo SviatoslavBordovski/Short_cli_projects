@@ -6,8 +6,9 @@
 <p>You should use input to read a string and float() to convert the string to a number.
 <p>Do not worry about error checking the user input - assume the user types numbers properly.
 <p><b>Program can handle the errors in the terminal caused by user when he/she enters words instead of the numbers.</b></p>
-
-
+<br>
+<br>
+<br>
 <h3>2. Based on a user's order, work out their final pizza bill.</h3>
 <br>
 <p>Small Pizza: $15</p>
