@@ -1,8 +1,11 @@
 <html>
-  <h3></h3>
+  <h3>Count US floor</h3>
   
   <p>Once user selected it, we just count starting from zero</p>
   <p>If user have chosen EU floor, we convert it to an integer number (previous "inp") and make +1 as it is expected in US.</p>
+  <p># Here is how for the user it looks like:
+    - Europe floor? 0
+    - US floor 1
 <br>
 <h3>2. Bill payment with counted overtime hours.</h3>
 <p>Write a program to prompt the user for hours and rate per hour using input to compute gross pay.
