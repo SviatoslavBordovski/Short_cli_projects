@@ -24,17 +24,16 @@ e = combined_names_string.count("e")
 
 match_for_love = l + o + v + e
 
-final_match = str(match_for_true) + str(match_for_love)
+final_match = int(str(match_for_true) + str(match_for_love))
 
-if 10 > int(final_match) > 90:
-  print("Your score is **x**, you go together like coke and mentos.")
+if 10 > final_match > 90:
+  print(f"Your score is {final_match}, you go together like coke and mentos.")
 
-elif 40 < int(final_match) < 50:
-  print("Your score is **y**, you are alright together.")
+elif 40 < final_match < 50:
+  print(f"Your score is {final_match}, you are alright together.")
 
 else:
-  print("Your score is **z**.")
-  
+  print(f"Your score is {final_match}.")
 
 # man = Sviatoslav
 # woman = Luidmyla
