@@ -1,4 +1,4 @@
-# Example input in cli: Mikke, Bobby, Billy, Sam, Peter
+# Example input in cli: Mike, Bob, Billy, Sam, Peter
 
 import random
 
