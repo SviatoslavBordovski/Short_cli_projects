@@ -2,7 +2,7 @@
 
 import random
 
-names_string = input("Give me everybody's names, separated by a comma. ")
+names_string = input("Give me everybody's names, separated by a comma. \n")
 names_list = names_string.split(", ")
 
 #Get the total number of items in list.
