@@ -1,7 +1,7 @@
 # 🚨 Count average student height without len() and sum() functions 👇
 # Example input: 156 178 165 171 187
 
-student_heights = input("Input a list of student heights ").split()
+student_heights = input("Input a list of student heights\n").split()
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
 
