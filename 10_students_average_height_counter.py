@@ -1,4 +1,4 @@
-# 🚨 Cound average student height without len() and sum() functions 👇
+# 🚨 Count average student height without len() and sum() functions 👇
 # Example input: 156 178 165 171 187
 
 student_heights = input("Input a list of student heights ").split()
