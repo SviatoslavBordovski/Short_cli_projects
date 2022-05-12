@@ -27,11 +27,11 @@ num = 0
 
 for num in range(1, 101):
 
-  if num % 3 == 0 and num % 5 == 0:
+  if num % 3 == 0 and num % 5 == 0:  # returns True (boolean)
     print("FizzBuzz")
-  elif num % 3 == 0:
+  elif num % 3 == 0:  # returns True (boolean)
     print("Fizz")
-  elif num % 5 == 0:
+  elif num % 5 == 0:  # returns True (boolean)
     print("Buzz")
   else:
     print(num)
