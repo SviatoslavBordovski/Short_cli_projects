@@ -12,7 +12,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 def generate_data_list():
 
   # Choosing number of letters that user wants and make a random string with join function
-  ch_letters = ''.join(random.sample(letters, nr_letters))
+  ch_letters = str(''.join(random.sample(letters, nr_letters)))
   
   # Choosing numbers that user passed and make a random string with join function
   ch_numbers = str(''.join(random.sample(numbers, nr_numbers)))
