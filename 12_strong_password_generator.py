@@ -10,21 +10,36 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 def generate_data_list():
+  """Generate data depending on user's input in command prompt"""
+  data_list = list()
 
   # Choosing number of letters that user wants and make a random string with join function
-  ch_letters = str(''.join(random.sample(letters, nr_letters)))
-  
+  letter = ""
+  for ch_letters in range(1, nr_letters + 1):
+    letter += random.choice(letters)
+
+  data_list.append(letter)
+
+  # Choosing number of symbols from the list that user wants and make a random string with join
+  symbol = ""
+  for ch_symbols in range(1, nr_symbols + 1):
+    symbol += random.choice(symbols)
+
+  data_list.append(symbol)
+
   # Choosing numbers that user passed and make a random string with join function
-  ch_numbers = str(''.join(random.sample(numbers, nr_numbers)))
-  
-  # Choosing number of symbols from the list that user wants and make a random string with join function
-  ch_symbols = str(''.join(random.sample(symbols, nr_symbols)))
-  
-  data_list = [ch_letters, ch_numbers, ch_symbols]
+  number = ""
+  for ch_numbers in range(1, nr_numbers + 1):
+    number += random.choice(numbers)
+
+  data_list.append(number)
+
+  print(data_list)
   return data_list
 
 
 def create_strong_password():
+  """Generate string from the list and reorder the list randomly"""
   random_data_list = generate_data_list()
 
   # Generated string using list of letters, numbers and symbols
