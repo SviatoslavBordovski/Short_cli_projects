@@ -6,10 +6,6 @@ def turn_right():
     turn_left()
     turn_left()
 
-def draw_square():
-    move()
-    turn_right()
-    
 def jump():
     while wall_on_right():
         move()
