@@ -1,4 +1,5 @@
 # Reborg 'Hardle 4' task => https://bit.ly/3FOATcZ
+# Solution is below:
 
 def turn_right():
     turn_left()
