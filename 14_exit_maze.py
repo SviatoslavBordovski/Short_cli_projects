@@ -32,8 +32,12 @@ def turn_right():
     turn_left()
 
 def find_a_flag():
+    while front_is_clear():
+        move()
+    turn_left()
+    
     while not at_goal():
-        if right_is_clear() and not front_is_clear():
+        if right_is_clear():
             turn_right()
             move()
         
