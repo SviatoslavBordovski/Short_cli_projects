@@ -79,7 +79,7 @@ def guess_letter():
       if letter == guess:
         display[position] = letter
         print("Guessed, continue...")
-        print(display)
+        print(f"{''.join(display)}")
 
     #While there are letters to guess - count lives
     if guess not in chosen_word:
