@@ -57,31 +57,37 @@ stages = ['''
 =========
 ''']
 
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["testing", "production", "bugs", "hotfix", "frontend"]
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
-lives = 6
+def guess_letter():
+  lives = 6
+  display = []
 
-#Create underscore blanks
-display = []
-for _ in range(word_length):
-    display += "_"
+  #Add underscores to the list
+  for _ in range(word_length):
+      display += "_"
 
-while "_" in display:
-  guess = input("Guess a letter: ").lower()
-  
-  #Check guessed letter
-  for position in range(word_length):
-    letter = chosen_word[position]
-    if letter == guess:
-      display[position] = letter
-      print("Guessed, continue...")
-  if guess not in chosen_word:
-    lives -= 1
-    print(stages[lives])
-  if lives == 0:
-    print("You lose.")
-  elif word_length == len(display) and "_" not in display:
-    word = f"{''.join(display)}"
-    print("Wohooo! Guessed word => ", word)
+  #Guessing letters...
+  while "_" in display:
+    guess = input("Guess a letter: ").lower()
+    
+    #Check guessed letter
+    for position in range(word_length):
+      letter = chosen_word[position]
+      if letter == guess:
+        display[position] = letter
+        print("Guessed, continue...")
+        print(display)
+
+    #While there are letters to guess - count lives
+    if guess not in chosen_word:
+      lives -= 1
+      print(stages[lives])
+    if lives == 0:
+      print("You lose.")
+      
+  print("Wohooo! Guessed word => ", f"{''.join(display)}")
+
+guess_letter()
