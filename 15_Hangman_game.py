@@ -81,7 +81,7 @@ def guess_letter():
         print("Guessed, continue...")
         print(f"{''.join(display)}")
 
-    #While there are letters to guess - count lives
+    #While there are letters to guess => count lives
     if guess not in chosen_word:
       lives -= 1
       print(stages[lives])
