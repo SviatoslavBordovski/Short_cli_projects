@@ -86,7 +86,7 @@ def guess_letter():
       lives -= 1
       print(stages[lives])
     if lives == 0:
-      print("You lose.")
+      print("Sorry, you lose.")
       
   print("Wohooo! Guessed word => ", f"{''.join(display)}")
 
