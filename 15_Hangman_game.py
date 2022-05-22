@@ -65,15 +65,15 @@ def guess_letter():
   lives = 6
   display = []
 
-  #Add underscores to the list
+  # Add underscores to the list
   for _ in range(word_length):
       display += "_"
 
-  #Guessing letters...
+  # Guessing letters...
   while "_" in display:
     guess = input("Guess a letter: ").lower()
     
-    #Check guessed letter
+    # Check guessed letter
     for position in range(word_length):
       letter = chosen_word[position]
       if letter == guess:
@@ -81,7 +81,7 @@ def guess_letter():
         print("Guessed, continue...")
         print(f"{''.join(display)}")
 
-    #While there are letters to guess => count lives
+    # While there are letters to guess => count lives
     if guess not in chosen_word:
       lives -= 1
       print(stages[lives])
@@ -90,4 +90,5 @@ def guess_letter():
       
   print("Wohooo! Guessed word => ", f"{''.join(display)}")
 
+# Start game
 guess_letter()
