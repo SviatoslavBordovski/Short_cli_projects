@@ -1,0 +1,28 @@
+def is_leap(year):
+  if year % 4 == 0:
+    if year % 100 == 0:
+      if year % 400 == 0:
+        return True
+      else:
+        return False
+    else:
+      return True
+  else:
+    return False
+
+def days_in_month(year, month):
+  month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+  # months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+  for i in range(1, len(month_days)):
+    if not is_leap(year) and month == i:
+      position = month_days[i - 1]
+      return position
+    elif is_leap(year):
+      return 29
+  
+#🚨 Do NOT change any of the code below 
+year = int(input("Enter a year: "))
+month = int(input("Enter a month: "))
+days = days_in_month(year, month)
+print(days)
