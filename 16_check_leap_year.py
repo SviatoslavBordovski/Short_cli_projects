@@ -12,7 +12,6 @@ def is_leap(year):
 
 def days_in_month(year, month):
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-  # months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
   for i in range(1, len(month_days)):
     if not is_leap(year) and month == i:
