@@ -13,7 +13,7 @@ def is_leap(year):
 def days_in_month(year, month):
   month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-  for i in range(1, len(month_days)):
+  for i in range(1, len(month_days)):  #check position of day that was chosen with input
     if not is_leap(year) and month == i:
       position = month_days[i - 1]
       return position
