@@ -51,5 +51,5 @@ def create_strong_password():
   print("Generated password: ", final_pwd)
 
 
-# Invoke your magic password generator
+# Invoke magic password generator
 create_strong_password()
